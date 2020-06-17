@@ -1,81 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     <title>Progate</title>
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
   </head>
   <body>
-    <div class="header">
-      <div class="header-logo">Progate</div>
-      <div class="header-list">
-        <ul>
-          <li>プログラミングとは</li>
-          <li>学べるレッスン</li>
-          <li>お問い合わせ</li>
-        </ul>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img src="https://prog-8.com/images/html/advanced/main_logo.png" class="logo" alt="">
+        </div>
+        <div class="header-right">
+          <a href="#" class="login">ログイン</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>LEARN TO CODE.</h1>
+        <h1>LEARN TO BE CREATIVE.</h1>
+        <p>Progateはオンラインプログラミング学習サービスです。</p>
+        <p>
+          初心者にもやさしいスライドとレッスンで、Webサービスを作りながらプログラミングを学んでいきましょう。
+        </p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">新規登録はこちら</a>
+          <p>or sign up with</p>
+          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
+          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+        </div>
       </div>
     </div>
-
-    <div class="main">
-      <div class="copy-container">
-        <h1>HELLO WORLD<span>.</span></h1>
-        <h2>プログラミングの世界へようこそ</h2>
-      </div>
-      <div class="contents">
-        <h3 class="section-title">学べるレッスン</h3>
-        <div class="contents-item">
-          <img
-            src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg"
-            alt=""
-          />
-          <p>HTML & CSS</p>
-        </div>
-        <div class="contents-item">
-          <img
-            src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg"
-            alt=""
-          />
-          <p>PHP</p>
-        </div>
-        <div class="contents-item">
-          <img
-            src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg"
-            alt=""
-          />
-          <p>Ruby</p>
-        </div>
-        <div class="contents-item">
-          <img
-            src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg"
-            alt=""
-          />
-          <p>Swift</p>
-        </div>
-      </div>
-      <div class="contact-form">
-        <h3 class="section-title">お問い合わせ</h3>
-        <p>メールアドレス（必須）</p>
-        <input type="text">
-        <p>お問い合わせ内容（必須）</p>
-        <textarea name=""></textarea>
-        <p>※必須項目は必ずご入力ください</p>
-        <input class="contact-submit" type="submit" value="送信">
-      </div>
-    </div>
-
-    <div class="footer">
-      <div class="footer-logo">
-        Progate
-      </div>
-      <div class="footer-list">
-        <ul>
-          <li>会社概要</li>
-          <li>採用</li>
-          <li>お問い合わせ</li>
-        </ul>
-      </div>
-    </div>
+    <div class="lesson-wrapper"></div>
+    <div class="message-wrapper"></div>
+    <footer></footer>
   </body>
 </html>

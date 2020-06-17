@@ -1,100 +1,103 @@
 body {
-  font-family: "Avenir Next";
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
 }
 
-/* list-styleプロパティを用いて、<li>要素の黒点を取り除いてください */
-li {
-  list-style: none;
-}
-.header {
-  background-color: #26d0c9;
-  color: #fff;
-  height: 90px;
+a {
+  text-decoration: none;
 }
 
-.header-logo {
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  /* text-alignをcenterに指定してください */
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  /* border-radiusを4pxに指定してください */
+  border-radius: 4px;
+}
+
+/* btnクラスにhoverしたときのCSSを指定してください */
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
   float: left;
-  font-size: 36px;
-  padding: 20px 40px;
 }
 
-.header-list li {
-  float: left;
-  padding: 33px 20px;
-}
-.main {
-  padding: 100px 80px;
-}
-
-.footer {
-  background-color: #ceccf3;
-  height: 270px;
-  color: #fff;
-  background-color: #2f5167;
-  height: 120px;
-  padding: 40px;
-}
-
-.footer-logo {
-  font-size: 32px;
-  float: left;
-}
-
-.footer-list {
+.header-right {
   float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
 }
 
-.footer-list li {
-  padding-bottom: 20px;
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-.copy-container h1 {
-  font-size: 140px;
-}
-
-.copy-container span {
-  color: #ff4a4a;
-}
-
-.copy-container h2 {
-  font-size: 60px;
-}
-
-.contents {
-  height: 500px;
-  margin-top: 100px;
-}
-
-.contents-item {
-  float: left;
-  margin-right: 40px;
-}
-
-.contents-item p {
-  font-size: 24px;
-  margin-top: 30px;
-}
-.section-title {
-  font-size: 28px;
-  border-bottom: 2px solid #dee7ec;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
-}
-
-.contact-form {
-  padding-top: 100px;
-}
-
-input, textarea {
-  width: 400px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
-  font-size: 18px;
-  border: 1px solid #dee7ec;
-}
-
-.contact-submit {
-  background-color: #dee7ec;
-  color: #889eab;
+.login {
+  display: block;
+  line-height: 65px;
+  color: white;
+  padding: 0 25px;
 }
